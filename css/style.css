@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(44, 44, 40, 0.829)), url(/images/background.jpg);*/
+    background-image:linear-gradient( #d3821283, #ffd3ed);
+    background-position: center;
+    background-size: cover;
+
+}
+.logo{
+    max-width: 40px;
+    padding-left: 60px;
+}
+.logo-label{
+    cursor: pointer;
+    max-width: 200px;
+    position:relative;
+    transition: .3s;
+
+}
+.logo-label:hover{
+    transform: translateX(2rem);
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(-90deg, #1a140b00, #0c090b00),url(/images/nav2.jpg) ;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.664);
+    height: 8%;
+    
+    
+}
+
+
+.navbar ul{
+   margin: 0 50px;
+   
+}
+.navbar ul li{
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #dcff14;
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    transition: .3s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.home, .about, .contact{
+    padding: 2px;
+    background: #2ec7c7;
+    transition: .3s;
+}
+.home:hover, .about:hover, .contact:hover{
+    transform: translateY(.25rem);;
+}
+
+.img img{
+    max-width: 500px;
+    
+}

@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.about_content{
+    background-image: linear-gradient(rgba(8, 58, 73, 0.75), rgba(0, 0, 0, 0.404));
+    color: aliceblue;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 6%;
+    width: 1200px;
+    height: 300px ;
+    border-radius: 10px;
+    padding-top: 30px;
+    
+}
+.about_content h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(224, 210, 10);
+    
+}
+
+.about_content h1::after{
+    
+    content: '';
+    display: block;
+    height: 5px;
+    width: 50%;
+    background-color:goldenrod ;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.about_content p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
